@@ -1,0 +1,13 @@
+DEBUG:root:Dalyba: 10 / 5 = 2.0
+ERROR:root:Dalyba: 10 / 0 negalima
+DEBUG:root:Dalyba: 10 / 0 = None
+ERROR:root:Dalyba: 10 / 0 negalima
+DEBUG:root:Dalyba: 10 / 0 = None
+ERROR:root:Dalyba: 10 / 0 negalima
+ERROR:root:Dalyba: 10 / 0 negalima
+ERROR:root:Dalyba: 10 / 0 negalima
+ERROR:root:Dalyba: 10 / 0 negalima
+2022-06-08 19:45:01,278:DEBUG:Dalyba: 10 / 5 = 2.0
+2022-06-08 19:45:36,796:DEBUG:Dalyba: 10 / 5 = 2.0
+2022-06-08 19:55:05,890:INFO:__main__:Dalyba: 10 / 5 = 2.0
+2022-06-08 19:55:12,410:INFO:__main__:Dalyba: 10 / 5 = 2.0
