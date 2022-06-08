@@ -11,3 +11,15 @@ ERROR:root:Dalyba: 10 / 0 negalima
 2022-06-08 19:45:36,796:DEBUG:Dalyba: 10 / 5 = 2.0
 2022-06-08 19:55:05,890:INFO:__main__:Dalyba: 10 / 5 = 2.0
 2022-06-08 19:55:12,410:INFO:__main__:Dalyba: 10 / 5 = 2.0
+DEBUG:root:suma: <function sum at 0x000001E60F447370>
+DEBUG:root:suma: <function sum at 0x000001E60F447370>
+DEBUG:root:suma: <function sum at 0x000001E60F447370>
+DEBUG:root:suma: 2
+DEBUG:root:suma: 7
+DEBUG:root:suma: 13
+DEBUG:root:suma: 13
+DEBUG:root:suma: 13
+2022-06-08 21:47:30,873:DEBUG:root:suma: 13
+2022-06-08 21:49:29,875:DEBUG:root:suma: 13
+2022-06-08 21:49:49,502:DEBUG:root:suma: 13
+2022-06-08 21:49:49,504:INFO:root:square root: 3.0
