@@ -75,58 +75,63 @@ import logging
 #
 # padalinom = dalyba(a, b)
 # logger.info(f"Dalyba: {a} / {b} = {padalinom}")
+#
+#
+# import math
+#
+#
+# def sum(*args):
+#     total = 0
+#     for x in args:
+#         total += x
+#     return
+#
+#
+# sum(2, 5, 6)
+#
+#
+# def square_root(x: int) -> float:
+#     answer = math.sqrt(x)
+#     return answer
+#
+#
+# # print(square_root(9))
+#
+# def len_of_sentence(x):
+#     answer = len(x)
+#     return answer
+#
+# # print(len_of_sentence("labadiena"))
+#
+#
+# def divide(x: int, y: int) -> int:
+#     return x/y
+#
+#
+# import logging
+#
+# # logging.basicConfig(filename="aritmetika.log", level=logging.DEBUG)
+# logging.basicConfig(filename="aritmetika.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
+#
+# def sum(*args):
+#     total = 0
+#     for x in args:
+#         total += x
+#     logging.debug(f"suma: {total}")
+#     return total
+#
+#
+# sum(2, 5, 6)
+#
+# def square_root(x: int) -> float:
+#     answer = math.sqrt(x)
+#     logging.info(f"square root: {answer}")
+#     return answer
+#
+#
+# square_root(9)
+#
 
 
-import math
 
 
-def sum(*args):
-    total = 0
-    for x in args:
-        total += x
-    return
-
-
-sum(2, 5, 6)
-
-
-def square_root(x: int) -> float:
-    answer = math.sqrt(x)
-    return answer
-
-
-# print(square_root(9))
-
-def len_of_sentence(x):
-    answer = len(x)
-    return answer
-
-# print(len_of_sentence("labadiena"))
-
-
-def divide(x: int, y: int) -> int:
-    return x/y
-
-
-import logging
-
-# logging.basicConfig(filename="aritmetika.log", level=logging.DEBUG)
-logging.basicConfig(filename="aritmetika.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
-
-def sum(*args):
-    total = 0
-    for x in args:
-        total += x
-    logging.debug(f"suma: {total}")
-    return total
-
-
-sum(2, 5, 6)
-
-def square_root(x: int) -> float:
-    answer = math.sqrt(x)
-    logging.info(f"square root: {answer}")
-    return answer
-
-
-square_root(9)
