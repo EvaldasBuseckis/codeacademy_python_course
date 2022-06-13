@@ -65,8 +65,31 @@
 #             pass
 #
 #
+# #
+# from bs4 import BeautifulSoup
+# import requests
+#
+# source = requests.get('https://www.delfi.lt/').text
+# soup = BeautifulSoup(source, 'html.parser')
+# blokai = soup.find_all('div', class_ = 'headline')
+#
+# print(blokai[:2])
+#
+#
+#
+#
+
+import csv
+
+from bs4 import BeautifulSoup
+import requests
+
+source = requests.get('https://shop.telia.lt/telefonai/?filter=brand:samsung').text
+soup = BeautifulSoup(source, 'html.parser')
+
+blokai = soup.find_all('div', class_='card card__product card--anim js-product-compare-product')
 
 
 
-
-
+for blokas in blokai:
+    print(blokas.text.strip())
